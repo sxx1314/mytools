@@ -112,7 +112,7 @@ ENV LANG zh_CN.UTF-8
 ENV LANGUAGE en_US:en  
 ENV LC_ALL zh_CN.UTF-8
 
-COPY start.sh /start.sh
+COPY tools/start.sh /start.sh
 RUN chmod +x /start.sh
 ENTRYPOINT [ "/start.sh" ]
 CMD ["/usr/sbin/sshd", "-D"]
