@@ -2,19 +2,19 @@
 {
   "sites": [
     {
-    "key": "csp_Aidi",
-    "name": "爱迪(爬虫)",
-    "type": 3,
-    "api": "csp_Aidi",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-    },  
-    {
     "key": "csp_Enlienli",
     "name": "嗯哩嗯哩(爬虫)",
     "type": 3,
     "api": "csp_Enlienli",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+    },
+    {
+    "key": "csp_Aidi",
+    "name": "爱迪(爬虫)",
+    "type": 3,
+    "api": "csp_Aidi",
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 1
@@ -64,15 +64,24 @@
   "quickSearch": 0,
   "filterable": 0
 },
-{
-  "key": "csp_Ubo",
-  "name": "U播影视(爬虫)",
-  "type": 3,
-  "api": "csp_Ubo",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},
+  {
+    "key": "csp_Nekk",
+    "name": "9E看看(爬虫)",
+    "type": 3,
+    "api": "csp_Nekk",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+  },
+  {
+    "key": "csp_EPangApp",
+    "name": "阿房影视(爬虫)",
+    "type": 3,
+    "api": "csp_EPangApp",
+    "searchable": 1,
+    "quickSearch": 0,
+    "filterable": 1
+  },
       {
                 "key": "极品资源",
                 "name": "极品资源",
