@@ -1,4 +1,3 @@
-###
 {
   "sites": [
     {
@@ -1073,7 +1072,8 @@
     "name": "Json轮询",
     "type": 2,
     "url": "Sequence"
-  } 
+  }
+ 
 ],
   "lives": [
     {
