@@ -31,6 +31,16 @@
       "ext": "B9C8093A210EADA1"
     },
     {
+      "key": "ikan_spider",
+      "name": "爱看(SP)",
+      "type": 3,
+      "api": "csp_IKan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "A9545C889B5D"
+    },
+    {
       "key": "360_spider",
       "name": "360影视(官源)",
       "type": 3,
@@ -788,5 +798,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;53e7401f3f5af3bbd06cb6d7fbfb02db"
+  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;1f7440156f6648a397e0ff9285aa690f"
 }
