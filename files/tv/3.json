@@ -323,6 +323,11 @@
       "url": "Sequence"
     },
     {
+      "name": "瓜瓜免嗅",
+      "type": 2,
+      "url": "Cucumber"
+    },
+    {
       "name": "555TV",
       "type": 1,
       "url": "https://api.parwix.com:4433/analysis/json/?uid=1752&my=fhlwyABGHJLNRX1489&url=",
@@ -798,5 +803,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;1f7440156f6648a397e0ff9285aa690f"
+  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;f76ac9d9edb05a8bc5c6abd79317b31a"
 }
