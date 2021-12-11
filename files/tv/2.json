@@ -5,11 +5,8 @@
 {"key":"唐人街","name":"唐人街(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Renjie.json"},
 {"key":"Gimy","name":"Gimy(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Gimy.json"},
 {"key":"Jumi","name":"Jumi(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Jumi.json"},
-{"key":"Djx","name":"瓜皮TV(P)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Djx.json"},
 {"key":"独播库","name":"独播库(P)","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Duboku.json"},
 {"key":"Sky4k","name":"Sky4k(P)[en]","type":3,"api":"csp_XPathMacFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Sky4k.json"},
-{"key":"Nfuxs","name":"南府(P)","type":3,"api": "csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Nfuxs.json"},
-{"key":"Aixixi","name":"爱西西(P)","type":3,"api": "csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://raw.githubusercontent.com/Tangsan99999/cat/main/rewrite/xpath/Aixixi.json"},
 {"key":"csp_Cokemv","name":"Cokemv(爬虫)","type":3,"api":"csp_Cokemv","searchable":1,"quickSearch":0,"filterable":1},
 {"key":"csp_Imaple","name":"枫林网(爬虫)","type":3,"api":"csp_Imaple","searchable":1,"quickSearch":0,"filterable":1},
 {"key":"csp_Jumi","name":"剧迷(爬虫)","type":3,"api":"csp_Jumi","searchable":1,"quickSearch":0,"filterable":1},
@@ -84,7 +81,10 @@
 {"name":"绿箭影视","type":1,"url":"https://json.qd234.cn/api/?key=ODVLeebHk0VsK0M2nG&url=","t":864,"i":"checkat2021-12-1008:41:40"},
 {"name":"雨果影视","type":1,"url":"https://json.nbjx.vip:4399/?wap=0&url=","t":866,"i":"checkat2021-12-1008:40:06"},
 {"name":"我爱电影","type":1,"url":"https://ysjx.jikezhuji.com/api/?key=Q4tfgmPEsD23t3TCTU&url=","t":881,"i":"checkat2021-12-1008:41:27"},
-{"name":"氢视频","type":1,"url":"https://json.qd234.cn/api/?key=CC99HRrrB0YgsSCPlS&url=","t":922,"i":"checkat2021-12-1008:40:57"}
+{"name":"氢视频","type":1,"url":"https://json.qd234.cn/api/?key=CC99HRrrB0YgsSCPlS&url=","t":922,"i":"checkat2021-12-1008:40:57"},
+	  
+{"name":"1","type":0,"url":"https://jx.yparse.com/index.php?url="},
+{"name":"2","type":0,"url":"https://jx.618g.com/?url="}
 ],
 
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
