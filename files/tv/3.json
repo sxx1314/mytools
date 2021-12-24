@@ -32,7 +32,7 @@
     },
     {
       "key": "gdyy_spider",
-      "name": "孤单影视(测FV0)",
+      "name": "孤单影视(FV0)",
       "type": 3,
       "api": "csp_Gdyy",
       "searchable": 1,
@@ -42,7 +42,7 @@
     },
     {
       "key": "wgyy_spider",
-      "name": "乌龟影视(测FV0)",
+      "name": "乌龟影视(FV0)",
       "type": 3,
       "api": "csp_Wgyy",
       "searchable": 1,
@@ -884,5 +884,5 @@
     "cdnjs.hnfenxun.com",
     "cms.qdwght.com"
   ],
-  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;dd70f51058b030fdeb0f616064a1567c"
+  "spider": "https://litecucumber.coding.net/p/cat/d/config/git/raw/master/main_spider.txt;md5;af67a3abdc815ae166762294c473635c"
 }
