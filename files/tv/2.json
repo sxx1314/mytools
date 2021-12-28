@@ -66,45 +66,201 @@
 "parses":[
 {"name":"Json并发","type":2,"url":"Parallel"},
 {"name":"Json轮询","type":2,"url":"Sequence"},
-{"name":"雨果影视","type":1,"url":"http://103.40.246.5:6881/ijsonononxxt/?url=","t":124,"i":"checkat2021-12-2018:43:03"},
-{"name":"555TV","type":1,"url":"https://api.parwix.com:4433/analysis/json/?uid=1752&my=fhlwyABGHJLNRX1489&url=","t":139,"i":"checkat2021-12-2018:44:14"},
-{"name":"绿箭影视","type":1,"url":"https://json.pangujiexi.com:12345/json.php?url=","t":151,"i":"checkat2021-12-2018:44:11"},
-{"name":"Vip影院","type":1,"url":"https://api.zakkpa.com:8888/analysis/json/?uid=39&my=bcgkmntABFHILRX057&url=","t":161,"i":"checkat2021-12-2018:43:09"},
-{"name":"琳琅影视","type":1,"url":"https://api.parwix.com:4433/analysis/json/?uid=1846&my=opsuvwBEHIJKNQSW09&url=","t":173,"i":"checkat2021-12-2018:43:31"},
-{"name":"看剧吧1","type":1,"url":"https://svip.renrenmi.cc:2222/api/?key=fI3YQ3vxF5uREfNpDU&url=","t":204,"i":"checkat2021-12-2018:43:35"},
-{"name":"影阅阁3","type":1,"url":"https://svip.renrenmi.cc:2222/api/?key=82KErJogweliHPt7Yp&url=","t":235,"i":"checkat2021-12-2018:44:00"},
-{"name":"追剧吧4","type":1,"url":"http://47.100.138.210:91/home/api?type=ys&uid=3567682&key=adjmqrxCGJNOQTUWX8&url=","t":253,"i":"checkat2021-12-2018:42:59"},
-{"name":"追剧吧5","type":1,"url":"http://47.100.138.210:91/home/api?type=ys&uid=715391&key=bdltvyACHKLQX01789&url=","t":253,"i":"checkat2021-12-2018:43:00"},
-{"name":"雪人影视","type":1,"url":"https://svip.renrenmi.cc:2222/api/?key=S77lACKG9VTwNq5Upv&url=","t":256,"i":"checkat2021-12-2018:43:11"},
-{"name":"雨果影视1","type":1,"url":"http://47.100.138.210:91/home/api?type=ys&uid=349825&key=bekqtuBDKMNPQSXY24&url=","t":268,"i":"checkat2021-12-2018:43:04"},
-{"name":"饭后电影","type":1,"url":"http://47.100.138.210:91/home/api?type=ys&uid=1947441&key=eghijmopwyGQSTUW59&url=","t":274,"i":"checkat2021-12-2018:43:03"},
-{"name":"阿姨追剧","type":1,"url":"http://47.100.138.210:91/home/api?type=ys&uid=2867314&key=deipsuvyGIKLORSV47&url=","t":277,"i":"checkat2021-12-2018:44:17"},
-{"name":"段友影视1","type":1,"url":"http://svip.jhdyw.vip:3456/jhyun.php?url=","t":318,"i":"checkat2021-12-2018:43:45"},
-{"name":"林谷影视","type":1,"url":"http://jifei.zjzy.pro:5656/home/api?type=ys&uid=413812&key=cejuwyABEGHINP0267&url=","t":318,"i":"checkat2021-12-2018:43:51"},
-{"name":"小极影视","type":1,"url":"http://119.29.145.154:9999/appjson/1.php?url=","t":434,"i":"checkat2021-12-2018:43:18"},
-{"name":"南府影视","type":1,"url":"http://play.szbodankyy.com/cnmb/?url=","t":469,"i":"checkat2021-12-2018:43:57"},
-{"name":"艾特影视","type":1,"url":"http://kelejiexi.aitee.cc/api/?key=Q5eOz72aSDAfZgbZit&url=","t":522,"i":"checkat2021-12-2018:44:31"},
-{"name":"爱影视","type":1,"url":"http://jx.vjiangbei.com/home/api?type=ys&uid=281459&key=bdhjkosvBEFGNWXZ49&url=","t":527,"i":"checkat2021-12-2018:43:22"},
-{"name":"抹茶猪2","type":1,"url":"https://supervip.rongxingvr.cn:8866/api/?key=41UviJ16T6DndnSpZr&url=","t":528,"i":"checkat2021-12-2018:42:57"},
-{"name":"抹茶猪","type":1,"url":"https://svip.renrenmi.cc:2222/api/?key=mmh63jk67yRHfWc8lE&url=","t":564,"i":"checkat2021-12-2018:42:55"},
-{"name":"月色影视","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=7743764&key=acgjlopuxACEHJLT48&url=","t":565,"i":"checkat2021-12-2018:43:24"},
-{"name":"4K影院1","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url=","t":583,"i":"checkat2021-12-2018:43:30"},
-{"name":"土豆TV","type":1,"url":"https://cs.024zs.com:4433/api/?key=mqGHkqM4qxhV5ddEzg&url=","t":588,"i":"checkat2021-12-2018:42:58"},
-{"name":"段友影视","type":1,"url":"http://1.12.218.245/1696263602.php/?url=","t":589,"i":"checkat2021-12-2018:43:44"},
-{"name":"播放呀","type":1,"url":"https://i.hexh.ink/home/api?type=ys&uid=1767561&key=bdelmsvwBDEHMNQXYZ&url=","t":591,"i":"checkat2021-12-2018:44:16"},
-{"name":"蓝光视频","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url=","t":619,"i":"checkat2021-12-2018:43:48"},
-{"name":"筋斗云","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url=","t":621,"i":"checkat2021-12-2018:43:06"},
-{"name":"追剧吧2","type":1,"url":"https://cs.024zs.com:4433/api/?key=YWgNNsISMq3Au9YhcH&url=","t":632,"i":"checkat2021-12-2018:42:56"},
-{"name":"看剧吧","type":1,"url":"http://vip.mengx.vip/home/api?type=ys&uid=3714324&key=adhmprtwyzBCHLSUX1&url=","t":645,"i":"checkat2021-12-2018:43:35"},
-{"name":"小强TV","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=867242&key=bchmpswDGLOQTXZ168&url=","t":650,"i":"checkat2021-12-2018:42:58"},
-{"name":"段友影视","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=998036&key=afhlnuvzDJLMOX3689&url=","t":701,"i":"checkat2021-12-2018:43:40"},
-{"name":"抹茶猪1","type":1,"url":"https://json.nbjx.vip:4399/?wap=0&url=","t":705,"i":"checkat2021-12-2018:42:56"},
-{"name":"疯狂看","type":1,"url":"https://a.zhuijula.top/yun_api.php?url=","t":706,"i":"checkat2021-12-2018:44:28"},
-{"name":"追剧吧1","type":1,"url":"https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url=","t":725,"i":"checkat2021-12-2018:42:55"},
-{"name":"快云影音","type":1,"url":"http://mxjx.ptygx.com/mxjson.php/?url=","t":732,"i":"checkat2021-12-2018:43:31"},
-{"name":"麻瓜视频","type":1,"url":"https://www.t7g.cn/api/?key=11ZQE5nh363ZFdhrs9&url=","t":930,"i":"checkat2021-12-2018:43:40"},
-{"name":"林谷影视1","type":1,"url":"http://jf.lemiaoyun.cn/home/api?type=ys&uid=40190120&key=bklmnprxCJLOQSTVX0&url=","t":960,"i":"checkat2021-12-2018:44:10"},
-{"name":"影阅阁","type":1,"url":"http://api1.json.vin:4433/api/?key=WPDh6vf0aT0ahepWzW&url=","t":971,"i":"checkat2021-12-2018:43:52"}
+    {
+      "name": "萌蛋蛋",
+      "type": 1,
+      "url": "https://svip.renrenmi.cc:2222/api/?key=LorFAswZzr3sGNI0YU&url="
+    },
+    {
+      "name": "影阅阁2",
+      "type": 1,
+      "url": "https://svip.renrenmi.cc:2222/api/?key=82KErJogweliHPt7Yp&url="
+    },
+    {
+      "name": "看剧吧",
+      "type": 1,
+      "url": "https://svip.renrenmi.cc:2222/api/?key=fI3YQ3vxF5uREfNpDU&url="
+    },
+    {
+      "name": "蓝光视频",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+    },
+    {
+      "name": "绿箭影视",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=7743764&key=acgjlopuxACEHJLT48&url="
+    },
+    {
+      "name": "麻瓜视频",
+      "type": 1,
+      "url": "https://api.parwix.com:4433/analysis/json/?uid=1735&my=egkqvxzBEHPQSUWX28&url="
+    },
+    {
+      "name": "影阅阁1",
+      "type": 1,
+      "url": "https://json.pangujiexi.com:12345/json.php?url="
+    },
+    {
+      "name": "南府影视",
+      "type": 1,
+      "url": "http://play.szbodankyy.com/cnmb111/?url="
+    },
+    {
+      "name": "小强TV",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=867242&key=acjksAGHJMPQTY3567&url="
+    },
+    {
+      "name": "雨果影视",
+      "type": 1,
+      "url": "http://103.40.246.5:6881/ijsonononxxt/?url="
+    },
+    {
+      "name": "DC影视",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url="
+    },
+    {
+      "name": "影阅阁3",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=594615&key=bcehpqtxCEGKMT0248&url="
+    },
+    {
+      "name": "筋斗云",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
+    },
+    {
+      "name": "艾特影视",
+      "type": 1,
+      "url": "http://159.75.45.225:12588/?url="
+    },
+    {
+      "name": "4K影院1",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url="
+    },
+    {
+      "name": "追剧吧",
+      "type": 1,
+      "url": "https://www.lengyue.app/hdsfajdkljlasjklsaj/?url="
+    },
+    {
+      "name": "Yoyo",
+      "type": 1,
+      "url": "http://47.100.138.210:91/home/api?type=ys&uid=1947441&key=bcfgjmuwCEORSVX237&url="
+    },
+    {
+      "name": "追剧吧3",
+      "type": 1,
+      "url": "http://47.100.138.210:91/home/api?type=ys&uid=715391&key=bdltvyACHKLQX01789&url="
+    },
+    {
+      "name": "阿姨追剧",
+      "type": 1,
+      "url": "http://47.100.138.210:91/home/api?type=ys&uid=2867314&key=ntyzDEGHPQVW234789&url="
+    },
+    {
+      "name": "手指影视",
+      "type": 1,
+      "url": "http://a.dxzj88.com/jhjson/?url="
+    },
+    {
+      "name": "二九影视",
+      "type": 1,
+      "url": "http://47.94.137.151:8089/?url="
+    },
+    {
+      "name": "黄河影视",
+      "type": 1,
+      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
+    },
+    {
+      "name": "雨果影视1",
+      "type": 1,
+      "url": "https://json.nbjx.vip:4399/?wap=0&url="
+    },
+    {
+      "name": "优视影视",
+      "type": 1,
+      "url": "http://ccc.ysys.asia/jx/?id=2&url="
+    },
+    {
+      "name": "星影相随1",
+      "type": 1,
+      "url": "https://xt.gbxy.net.cn/api/?key=7gAmfK5typSVsg2Qnr&url="
+    },
+    {
+      "name": "抹茶猪",
+      "type": 1,
+      "url": "https://svip.renrenmi.cc:2222/api/?key=81gnuXCwZK9IZxt8bU&url="
+    },
+    {
+      "name": "筋斗云1",
+      "type": 1,
+      "url": "https://fast.rongxingvr.cn:8866/api/?key=nrR7koAyq9ajKId4nC&url="
+    },
+    {
+      "name": "看剧吧1",
+      "type": 1,
+      "url": "http://47.100.138.210:91/home/api?type=ys&uid=243653&key=kqswxyABGHKLQSV127&url="
+    },
+    {
+      "name": "麻瓜视频1",
+      "type": 1,
+      "url": "https://jhjx.ptygx.com/xttyjx.php/?url="
+    },
+    {
+      "name": "看剧吧2",
+      "type": 1,
+      "url": "https://fast.rongxingvr.cn:8866/api/?key=G0KF039jDQWlMHMf5z&url="
+    },
+    {
+      "name": "星辰视频",
+      "type": 1,
+      "url": "https://cs.024zs.com:4433/api/?key=2yqrXys9F3TcDiRz3k&url="
+    },
+    {
+      "name": "阿姨追剧1",
+      "type": 1,
+      "url": "https://cs.024zs.com:4433/api/?key=P3lAZ3QJlv6KBNNLHM&url="
+    },
+    {
+      "name": "爱影视",
+      "type": 1,
+      "url": "http://json.iqtv.tv/json.php?id=syhdjjjelxu66&url="
+    },
+    {
+      "name": "影阅阁",
+      "type": 1,
+      "url": "http://api1.json.vin:4433/api/?key=WPDh6vf0aT0ahepWzW&url="
+    },
+    {
+      "name": "神马影院",
+      "type": 1,
+      "url": "https://jhpc.manduhu.com/j1217.php?url="
+    },
+    {
+      "name": "瑞丰资源",
+      "type": 1,
+      "url": "https://cs.024zs.com:4433/api/?key=BKJ8LHmu8n9SD4Tou7&url="
+    },
+    {
+      "name": "阿姨追剧3",
+      "type": 1,
+      "url": "http://json.qd234.cn/home/api?type=ys&uid=353067&key=bghmnoxBIKORUV1269&url="
+    },
+    {
+      "name": "疯狂看",
+      "type": 1,
+      "url": "https://a.zhuijula.top/yun_api.php?url="
+    },
+    {
+      "name": "Yoyo1",
+      "type": 1,
+      "url": "https://json.legendwhb.cn/znjson.php/?url="
+    }
 ],
 
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili"],
