@@ -1,6 +1,7 @@
 ###
 {
   "sites": [ 
+
     {
     "key": "csp_Aidi",
     "name": "爱迪(爬虫)",
@@ -119,89 +120,6 @@
     "quickSearch": 0,
     "filterable": 1
   },
-{
-      "key": "人人迷",
-      "name": "人人迷",
-      "type": 1,
-      "api": "https://kuu.renrenmi.cc/api.php/provide/vod/?ac=list",
-      "playUrl": "https://jx.renrenmi.cc/?url=",
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "剧情片",
-        "战争片",
-        "恐怖片",
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "其他剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-{
-      "key":"8090",
-      "name":"8090",
-      "type":0,
-      "api":"http://zy.yilans.net:8090/api.php/provide/vod/at/xml",
-      "playUrl":"https://jx.renrenmi.cc/?url=",
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "惊悚片",
-        "魔幻片",
-        "冒险片",
-        "悬疑片",
-        "纪录片",
-        "犯罪片",
-        "微电影",
-        "其他片",
-        "动画片"
-      ]
-    },
-{
-      "key": "喵派对蓝光",
-      "name": "喵派对蓝光",
-      "type": 0,
-      "api": "https://www.neenl.com/api.php/provide/vod/at/xml",
-      "playUrl": "https://jx.renrenmi.cc/?url="
-    },
-    {
-      "key": "快播云",
-      "name": "快播云",
-      "type": 0,
-      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "categories": [
-        "国产剧",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "泰剧",
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "纪录片"
-      ]
-    },
  {
     "key": "csp_xpath_94sm",
     "name": "94神马(XPath)",
@@ -1073,19 +991,33 @@
       ]
     }
   ],
-  "parses": [
+
+    "parses": [
+
 	{"name":"Json并发","type":2,"url":"Parallel"},
+
 	{"name":"Json轮询","type":2,"url":"Sequence"},
+
 	{"name":"高清解析1","type":0,"url":"https://titan.mgtv.com.jumi.tv/player/?url="},
+
 	{"name":"高清解析2","type":0,"url":"https://dmku.dijiaxia.com/?url="},
+
 	{"name":"高清解析3","type":0,"url":"https://jx.ysgc.xyz/?url="},
+
 	{"name":"高清解析4","type":0,"url":"http://egwang186.gitee.io/?url="},
+
 	{"name":"高清解析5","type":0,"url":"https://jx.daidaitv.top:43810/?url="},
+
 	{"name":"高清解析6","type":0,"url":"https://okjx.cc/?url="},
+
 	{"name":"高清解析7","type":0,"url":"https://jx.ppflv.com/?url="},
+
 	{"name":"高清解析8","type":0,"url":"http://an61.com/jx/vip?v="},
+
 	{"name":"高清解析9","type":0,"url":"http://60jx.com/?url="},
+
 	{"name":"Json.VodJX","url":"https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=","type":1}
+
 	],
 	  
   "flags": [
