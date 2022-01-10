@@ -10,7 +10,55 @@
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 1
-    },      
+    },     
+    {
+      "key": "爱奇艺会员(官源)",
+      "name": "爱奇艺会员(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/qiyi/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "腾讯视讯(官源)",
+      "name": "腾讯视讯（官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/qq/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "芒果TV会员(官源)",
+      "name": "芒果TV会员(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/mgtv/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "搜狐视讯会员(官源)",
+      "name": "搜狐视讯会员(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/sohu/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+
+    {
+      "key": "优酷视讯会员(官源)",
+      "name": "优酷视讯会员(官源)",
+      "type": 0,
+      "api": "http://api.000zy.com/provide/vod/from/youku/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    }, 
   {
     "key": "csp_YydsAli1",
     "name": "YYDS阿里(爬虫)",
@@ -455,54 +503,14 @@
  ],
 
   "lives": [
-    {
-      "group": "自定义",
-      "channels": [
-        {
-          "name": "安徽经视",
-          "urls": [
-            "http://zbbf2.ahtv.cn/live/750.m3u8"
-          ]
-        },
-        {
-          "name": "安徽综艺",
-          "urls": [
-            "http://zbbf2.ahtv.cn/live/758.m3u8"
-          ]
-        },
-        {
-          "name": "安徽影视",
-          "urls": [
-            "http://zbbf2.ahtv.cn/live/756.m3u8"
-          ]
-        },
-        {
-          "name": "安徽科教",
-          "urls": [
-            "http://zbbf2.ahtv.cn/live/754.m3u8"
-          ]
-        },
-        {
-          "name": "安徽公共",
-          "urls": [
-            "http://zbbf2.ahtv.cn/live/752.m3u8"
-          ]
-        },
-        {
-          "name": "安徽人物",
-          "urls": [
-            "http://zbbf2.ahtv.cn/live/da9.m3u8"
-          ]
-        }
-      ]
-    },
+
     {
       "group": "央视",
       "channels": [
         {
           "name": "CCTV-1",
           "urls": [
-            "http://183.207.248.71:80/cntv/live1/HD-8000k-1080P-cctv1/HD-8000k-1080P-cctv1",
+            "http://117.148.179.155/PLTV/88888888/224/3221231468/index.m3u8",
             "http://39.134.24.24/PLTV/88888888/224/3221225684/index.m3u8",
             "http://39.134.24.24/PLTV/88888888/224/3221225829/index.m3u8",
             "http://39.134.24.24/PLTV/88888888/224/3221225652/index.m3u8",
@@ -991,35 +999,41 @@
       ]
     }
   ],
+  "parses": [
+    {
+      "name": "Json併发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    { "name": "高清解析9", "type": 0, "url": "http://60jx.com/?url=" },
+    {
+      "name": "蓝光视讯",
+      "type": 1,
+      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+    },
+    {
+      "name": "黄河影视",
+      "type": 1,
+      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
+    },
+    {
+      "name": "Vip影院1",
+      "type": 1,
+      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=39&my=bdfinvyBCDEJKUY089&url="
+    },
 
-    "parses": [
+    {
+      "name": "公主影视",
+      "type": 1,
+      "url": "https://jx.renrenmi.cc/?url="
+    }
+  ],
 
-	{"name":"Json并发","type":2,"url":"Parallel"},
-
-	{"name":"Json轮询","type":2,"url":"Sequence"},
-
-	{"name":"高清解析1","type":0,"url":"https://titan.mgtv.com.jumi.tv/player/?url="},
-
-	{"name":"高清解析2","type":0,"url":"https://dmku.dijiaxia.com/?url="},
-
-	{"name":"高清解析3","type":0,"url":"https://jx.ysgc.xyz/?url="},
-
-	{"name":"高清解析4","type":0,"url":"http://egwang186.gitee.io/?url="},
-
-	{"name":"高清解析5","type":0,"url":"https://jx.daidaitv.top:43810/?url="},
-
-	{"name":"高清解析6","type":0,"url":"https://okjx.cc/?url="},
-
-	{"name":"高清解析7","type":0,"url":"https://jx.ppflv.com/?url="},
-
-	{"name":"高清解析8","type":0,"url":"http://an61.com/jx/vip?v="},
-
-	{"name":"高清解析9","type":0,"url":"http://60jx.com/?url="},
-
-	{"name":"Json.VodJX","url":"https://www.vodjx.top/api/?key=XSQzk8KFK1I7FfPK5X&url=","type":1}
-
-	],
-	  
   "flags": [
     "youku",
     "qq",
