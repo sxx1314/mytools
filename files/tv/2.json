@@ -10,55 +10,35 @@
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 1
-    },     
-    {
-      "key": "爱奇艺会员(官源)",
-      "name": "爱奇艺会员(官源)",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/from/qiyi/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
-    {
-      "key": "腾讯视讯(官源)",
-      "name": "腾讯视讯（官源)",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/from/qq/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-
-    {
-      "key": "芒果TV会员(官源)",
-      "name": "芒果TV会员(官源)",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/from/mgtv/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-
-    {
-      "key": "搜狐视讯会员(官源)",
-      "name": "搜狐视讯会员(官源)",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/from/sohu/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-
-    {
-      "key": "优酷视讯会员(官源)",
-      "name": "优酷视讯会员(官源)",
-      "type": 0,
-      "api": "http://api.000zy.com/provide/vod/from/youku/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    }, 
+{
+  "key": "csp_Buka",
+  "name": "真不卡(爬虫)",
+  "type": 3,
+  "api": "csp_Buka",
+  "searchable": 0,
+  "quickSearch": 0,
+  "filterable": 1
+},
+{
+  "key": "csp_N0ys",
+  "name": "90影视(爬虫)",
+  "type": 3,
+  "api": "csp_N0ys",
+  "searchable": 1,
+  "quickSearch": 0,
+  "filterable": 0
+},
+ {
+"key":"csp_xpath_ysjc",
+"name":"工厂影视(XPath)",
+"type":3,
+"api":"csp_XPath",
+"searchable":1,
+"quickSearch":1,
+"filterable":0,
+"ext":"https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/gc.json"
+},
   {
     "key": "csp_YydsAli1",
     "name": "YYDS阿里(爬虫)",
@@ -87,33 +67,7 @@
   "quickSearch": 0,
   "filterable": 1
 },
-{
-  "key": "csp_Buka",
-  "name": "真不卡(爬虫)",
-  "type": 3,
-  "api": "csp_Buka",
-  "searchable": 0,
-  "quickSearch": 0,
-  "filterable": 1
-},
-{
-  "key": "csp_Ysgc",
-  "name": "影视工厂(爬虫)",
-  "type": 3,
-  "api": "csp_Ysgc",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 1
-},
-{
-  "key": "csp_N0ys",
-  "name": "90影视(爬虫)",
-  "type": 3,
-  "api": "csp_N0ys",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 0
-},
+
   {
     "key": "csp_Nekk",
     "name": "9E看看(爬虫)",
@@ -1010,11 +964,25 @@
       "type": 2,
       "url": "Sequence"
     },
-    { "name": "高清解析9", "type": 0, "url": "http://60jx.com/?url=" },
     {
       "name": "蓝光视讯",
       "type": 1,
       "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
+    },
+    {
+      "name": "麻花视频",
+      "type": 1,
+      "url": "http://jf.tcspvip.com:246/home/api?type=ys&uid=65404&key=bjoprtvyABGIMPXZ27&url="
+    },
+    {
+      "name": "(无名)",
+      "type": 1,
+      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=91&my=gjksuvCHIJLRS01268&url="
+    },
+      {
+      "name": "黄河影视",
+      "type": 1,
+      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
     },
       {
       "name": "筋斗云",
@@ -1046,11 +1014,7 @@
       "type": 1,
       "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url="
     },
-    {
-      "name": "(无名)",
-      "type": 1,
-      "url": "https://api.zakkpa.com:8888/analysis/json/?uid=91&my=gjksuvCHIJLRS01268&url="
-    },
+
     {
       "name": "DC影视",
       "type": 1,
@@ -1101,11 +1065,7 @@
       "type": 1,
       "url": "http://ccc.ysys.asia/jx/?id=2&url="
     },
-    {
-      "name": "黄河影视",
-      "type": 1,
-      "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
-    },
+
     {
       "name": "(无名)1",
       "type": 1,
@@ -1151,11 +1111,7 @@
       "type": 1,
       "url": "https://fast.rongxingvr.cn:8866/api/?key=nrR7koAyq9ajKId4nC&url="
     },
-    {
-      "name": "麻花视频",
-      "type": 1,
-      "url": "http://jf.tcspvip.com:246/home/api?type=ys&uid=65404&key=bjoprtvyABGIMPXZ27&url="
-    },
+
     {
       "name": "TV酷",
       "type": 1,
