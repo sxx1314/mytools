@@ -39,59 +39,6 @@
 "filterable":0,
 "ext":"https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/gc.json"
 },
-    {
-      "key": "爱奇艺会员(官源)",
-      "name": "爱奇艺会员(官源)",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/qiyi/at/xml/",
-      "categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","港台剧","日韩剧","欧美剧","惊悚片","魔幻片","冒险片","悬疑片","纪录片","犯罪片","微电影","其他片","动画片"],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "腾讯视讯(官源)",
-      "name": "腾讯视讯（官源)",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/qq/at/xml/",
-      "categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","魔幻片","冒险片","悬疑片","纪录片","犯罪片","微电影","其他片","动画片"],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-
-    {
-      "key": "芒果TV会员(官源)",
-      "name": "芒果TV会员(官源)",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/mgtv/at/xml/",
-      "categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","魔幻片","冒险片","悬疑片","纪录片","犯罪片","微电影","其他片","动画片"],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-
-    {
-      "key": "搜狐视讯会员(官源)",
-      "name": "搜狐视讯会员(官源)",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/sohu/at/xml/",
-      "categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","魔幻片","冒险片","悬疑片","纪录片","犯罪片","微电影","其他片","动画片"],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-
-    {
-      "key": "优酷视讯会员(官源)",
-      "name": "优酷视讯会员(官源)",
-      "type": 0,
-      "api": "http://zy.yilans.net:8090/api.php/provide/vod/from/youku/at/xml/",
-      "categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","惊悚片","魔幻片","冒险片","悬疑片","纪录片","犯罪片","微电影","其他片","动画片"],
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    }, 
   {
     "key": "csp_YydsAli1",
     "name": "YYDS阿里(爬虫)",
