@@ -1,6 +1,10 @@
 {"sites":[
 
 {"key":"if101资源","name":"海外推荐","type":0,"api":"https://demo.if101.tv/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1,"filterable":0},
+{"key":"csp_appysv2_追剧达人","name":"追剧推荐(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"追剧达人###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
+{"key":"csp_appysv2_星空影视","name":"星空推荐(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"星空影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
+{"key":"csp_appysv2_天空影视","name":"天空推荐(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"天空影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
+{"key":"csp_appysv2_天空影视V2","name":"天空影视V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"天空影视V2###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
   
 {"key":"csp_Enlienli","name":"嗯哩嗯哩(爬虫)","type":3,"api":"csp_Enlienli","searchable":1,"quickSearch":0,"filterable":1},
 {"key":"csp_Auete","name":"Auete(爬虫)","type":3,"api":"csp_Auete","searchable":1,"quickSearch":0,"filterable":1},
@@ -26,10 +30,8 @@
 {"key":"csp_xpath_agefans","name":"Age动漫(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/sub/xpath/agefans.json"},
 {"key":"csp_xpath_saohuotv2","name":"骚火电影(XPath)","type":3,"api":"csp_XPath","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/sub/xpath/saohuotv2.json"},
 
-{"key":"csp_appysv2_星空影视","name":"星空影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"星空影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
-{"key":"csp_appysv2_天空影视","name":"天空影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"天空影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
-{"key":"csp_appysv2_天空影视V2","name":"天空影视V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"天空影视V2###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
-{"key":"csp_appysv2_迪迪影院","name":"迪迪影院(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"迪迪影院###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
+
+{"key":"csp_appysv2_迪迪影院","name":"迪迪影院V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"迪迪影院###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_饭团影视","name":"饭团影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"饭团影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_灵狐影视","name":"灵狐影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"灵狐影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_手指影视","name":"手指影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"手指影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
@@ -168,7 +170,6 @@
 {"key":"csp_appysv2_柚子视频","name":"柚子视频(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"柚子视频###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_鱼仔影视","name":"鱼仔影视(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"鱼仔影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_追剧吧","name":"追剧吧(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"追剧吧###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
-{"key":"csp_appysv2_追剧达人","name":"追剧达人(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"追剧达人###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_追剧猫","name":"追剧猫(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"追剧猫###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_侦探影视","name":"侦探影视(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"侦探影视###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
 {"key":"csp_appysv2_猪猪影院","name":"猪猪影院(普)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"猪猪影院###https://mo-xiao.coding.net/p/c/d/c/git/raw/master/AppYsV2.json"},
