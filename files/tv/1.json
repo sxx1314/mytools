@@ -11,6 +11,7 @@
   "quickSearch": 0,
   "filterable": 1
 },
+{"key":"csp_appysv2_星空影视","name":"星空影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"星空影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
 {
   "key": "csp_Auete",
   "name": "Auete(爬虫)",
@@ -29,47 +30,11 @@
   "quickSearch": 0,
   "filterable": 1
 },
- {
-  "key": "csp_N0ys",
-  "name": "90影视(爬虫)",
-  "type": 3,
-  "api": "csp_N0ys",
-  "searchable": 1,
-  "quickSearch": 0,
-  "filterable": 0
-},
   {
     "key": "csp_Nekk",
     "name": "9E看看(爬虫)",
     "type": 3,
     "api": "csp_Nekk",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-  },
-  {
-    "key": "csp_Djx",
-    "name": "瓜皮TV(爬虫)",
-    "type": 3,
-    "api": "csp_Djx",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-  },
-  {
-    "key": "csp_Imaple",
-    "name": "枫林网(爬虫)",
-    "type": 3,
-    "api": "csp_Imaple",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-  },
-  {
-    "key": "csp_Jumi",
-    "name": "剧迷(爬虫)",
-    "type": 3,
-    "api": "csp_Jumi",
     "searchable": 1,
     "quickSearch": 0,
     "filterable": 1
@@ -83,15 +48,11 @@
     "quickSearch": 0,
     "filterable": 1
     },
-      {
-    "key": "csp_EPangApp",
-    "name": "阿房影视(爬虫)",
-    "type": 3,
-    "api": "csp_EPangApp",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1
-  },
+
+{"key":"csp_appysv2_天空影视","name":"天空影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"天空影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
+{"key":"csp_appysv2_天空影视V2","name":"天空影视V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"天空影视V2###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
+{"key":"csp_appysv2_迪迪影院","name":"迪迪影院(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"迪迪影院###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
+{"key":"csp_xpath_9EKK","name":"9E看看(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/9EKK.json"},
 {"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/lezhutv.json"},
  {
     "key": "csp_xpath_94sm",
@@ -101,17 +62,7 @@
     "searchable": 1,
     "quickSearch": 1,
     "filterable": 0,
-    "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/94sm.json"
-},
-{
-    "key": "csp_xpath_jpys",
-    "name": "极品影视(XPath)",
-    "type": 3,
-    "api": "csp_XPath",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/jpys.json"
+    "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/94sm.json"
 },
  {
 "key":"csp_xpath_ysjc",
@@ -144,16 +95,6 @@
     "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/jpys.json"
 },
 {
-    "key": "csp_xpath_nfmov",
-    "name": "NFMovies(XPath)",
-    "type": 3,
-    "api": "csp_XPathNfMov",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/nfmovie.json"
-},
-{
     "key": "csp_xpath_tvci",
     "name": "大师兄(XPath)",
     "type": 3,
@@ -174,16 +115,6 @@
     "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/duboku.json"
 },
 {
-     "key": "csp_xpath_saohuotv",
-     "name": "骚火电影(XPath)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/saohuotv2.json"
-},
-{
      "key": "csp_xpath_dm84",
      "name": "动漫巴士(XPath)",
      "type": 3,
@@ -192,56 +123,6 @@
      "quickSearch": 1,
      "filterable": 0,
      "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/dm84.json"
-},
-{
-    "key": "csp_xpath_egg",
-    "name": "蛋蛋影院(XPath)",
-    "type": 3,
-    "api": "csp_XPathEgg",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/egg.json"
-},
-{
-     "key": "csp_xpath_555",
-     "name": "555电影(XPath)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/555.json"
-},
-{
-     "key": "csp_xpath_sky4k",
-     "name": "天空4K(XPath)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/sky4k.json"
-},
-{
-     "key": "csp_xpath_4kyu",
-     "name": "一只鱼4K(XPath)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/4kyu.json"
-},
-{
-     "key":"csp_xpath_miniku",
-     "name":"Miniku(XPath)",
-     "type":3,
-     "api":"csp_XPath",
-     "searchable":1,
-     "quickSearch":1,
-     "filterable": 0,
-     "ext":"https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/miniku.json"
 },
 {
      "key":"csp_xpath_pianba",
@@ -254,10 +135,6 @@
      "ext":"https://sharertv.coding.net/p/mao/d/mao/git/raw/master/xpath/pianba.json"
 },
 
-{"key":"csp_appysv2_星空影视","name":"星空影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"星空影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
-{"key":"csp_appysv2_天空影视","name":"天空影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"天空影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
-{"key":"csp_appysv2_天空影视V2","name":"天空影视V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"天空影视V2###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
-{"key":"csp_appysv2_迪迪影院","name":"迪迪影院(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"迪迪影院###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
 {"key":"csp_appysv2_饭团影视","name":"饭团影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"饭团影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
 {"key":"csp_appysv2_灵狐影视","name":"灵狐影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"灵狐影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
 {"key":"csp_appysv2_手指影视","name":"手指影视(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"手指影视###https://sharertv.coding.net/p/mao/d/mao/git/raw/master/ext/appys.json"},
