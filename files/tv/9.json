@@ -19,7 +19,7 @@
   "filterable": 1
 
 },
-
+{"key":"csp_77","name":"77(爬虫)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_appysv2_饭团影视","name":"饭团影视(M2)","type":3,"api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://television.wkfile.com/api.php/app/"},
 {"key":"csp_appysv2_天空影视V2","name":"天空影视V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.tkys.tv/xgapp.php/v2/"},
 
@@ -844,7 +844,7 @@
     "wasu",
     "bilibili"
   ],
-  "spider": "https://sharertv.coding.net/p/mao/d/mao/git/raw/master/custom_spider.jar",
+  "spider": "https://fenxiangmi.coding.net/p/zb/d/nzy/git/raw/master/custom_spider22.jar",
 
   "ijk": [
     {
