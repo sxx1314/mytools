@@ -11,10 +11,10 @@
 "filterable": 1
 },
 
-{"key":"csp_appysv2_天空V2","name":"天空V2(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.tkys.tv/xgapp.php/v2/"},
+{"key":"csp_appysv2_天空V2","name":"接口被封即将停用，公众号：分享迷，回复：接口","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://www.tkys.tv/xgapp.php/v2/"},
 {
 "key": "csp_Auete",
-"name": "Auete",
+"name": "接口被封即将停用，公众号：分享迷，回复：接口",
 "type": 3,
 "api": "csp_Auete",
 "searchable": 1,
@@ -23,7 +23,7 @@
 },
 {
 "key": "csp_Cokemv",
-"name": "Cokemv",
+"name": "接口被封即将停用，公众号：分享迷，回复：接口",
 "type": 3,
 "api": "csp_Cokemv",
 "searchable": 1,
@@ -32,7 +32,7 @@
 },
 {
 "key": "csp_Enlienli",
-"name": "嗯哩嗯哩",
+"name": "接口被封即将停用，公众号：分享迷，回复：接口",
 "type": 3,
 "api": "csp_Enlienli",
 "searchable": 1,
@@ -41,10 +41,10 @@
 },
 {"key":"csp_appysv2_天空","name":"天空(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://tkys.tv/xgapp.php/v1/"},
 {"key":"csp_appysv2_迪迪","name":"迪迪(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://dd88.icu:6080/xgapp.php/v2/"},
-{"key":"csp_xpath_lezhutv","name":"乐猪TV(XPath)","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/lezhutv.json"},
+{"key":"csp_xpath_lezhutv","name":"接口被封即将停用，公众号：分享迷，回复：接口","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/lezhutv.json"},
 {
 "key": "csp_xpath_94sm",
-"name": "94神马(XPath)",
+"name": "接口被封即将停用，公众号：分享迷，回复：接口",
 "type": 3,
 "api": "csp_XPath",
 "searchable": 1,
@@ -54,61 +54,13 @@
 },
 {
 "key": "csp_xpath_age",
-"name": "AGE动漫(XPath)",
+"name": "接口被封即将停用，公众号：分享迷，回复：接口",
 "type": 3,
 "api": "csp_XPath",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 0,
 "ext": "https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/agefans.json"
-},{
-"key": "csp_xpath_jpyszl",
-"name": "极品直链(XPath)",
-"type": 3,
-"api": "csp_XPathMac",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 0,
-"ext": "https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/jpys.json"
-},
-{
-"key": "csp_xpath_tvci",
-"name": "大师兄(XPath)",
-"type": 3,
-"api": "csp_XPath",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 0,
-"ext": "https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/tvci.json"
-},
-{
-"key": "csp_xpath_duboku",
-"name": "独播库(XPath)",
-"type": 3,
-"api": "csp_XPath",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 0,
-"ext": "https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/duboku.json"
-},
-{
-"key": "csp_xpath_dm84",
-"name": "动漫巴士(XPath)",
-"type": 3,
-"api": "csp_XPath",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 0,
-"ext": "https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/dm84.json"
-},{
-"key":"csp_xpath_pianba",
-"name":"Pianba(XPath)",
-"type":3,
-"api":"csp_XPath",
-"searchable":1,
-"quickSearch":1,
-"filterable": 0,
-"ext":"https://mtv123.coding.net/p/m/d/m/git/raw/master/xpath/pianba.json"
 },
 {"key":"csp_appysv2_灵狐","name":"灵狐(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"http://x.dmntv.com/api.php/app/"},
 {"key":"csp_appysv2_手指","name":"手指(M2)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":0,"filterable":1,"ext":"https://szys5678.com/mogai_api.php/v1.vod"},
@@ -412,7 +364,7 @@
 "wasu",
 "bilibili"
 ],
-"spider": "https://mtv123.coding.net/p/m/d/m/git/raw/master/custom_spider.jar",
+"spider": "https://gitee.com/tv88/jar/raw/master/custom_spider_0330.jar;md5;01a4ac9109a0602124cee4feddc1971e",
 "ijk": [
 {
 "group": "软解码",
