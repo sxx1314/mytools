@@ -1,6 +1,7 @@
 ###
 {
 "sites": [
+{"key":"csp_xpath_lezhutv","name":"接口被封即将停用，公众号：分享迷，回复：接口","type":3,"api":"csp_XPathMac","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://kds2.coding.net/p/k/d/k/git/raw/master/xpath/lezhutv.json"},
 {
 "key": "csp_Buka",
 "name": "接口被封即将停用，公众号：分享迷，回复：接口",
