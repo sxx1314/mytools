@@ -1,6 +1,7 @@
 name: Build kernel deb packages
 # 在代码推送的时候自动触发 action
-on: push
+on:
+  workflow_dispatch:
 jobs:
   build:
     name: Build kernel
@@ -22,7 +23,7 @@ jobs:
 
       # 调用自动编译脚本，需要 sudo 权限
       - name: Build
-        run: sudo bash tools/pkb.sh
+        run: sudo bash pkb.sh
 
       # 将编译后的产物保留，以供直接通过网页下载
       - name: Artifact
