@@ -7,7 +7,7 @@ sudo apt install -y wget
 sudo apt build-dep -y linux
 sudo apt install -y devscripts debhelper equivs git dwarves
 wget http://ftp.us.debian.org/debian/pool/main/d/dwarves-dfsg/dwarves_1.20-1_amd64.deb
-sudo apt install ./dwarves_1.20-1_amd64.deb
+sudo dpkg -i ./dwarves_1.20-1_amd64.deb
 
 git clone -b v5.18.x https://github.com/fabianishere/pve-edge-kernel
 git clone -b v5.17.x https://github.com/sxx1314/pve-kernel.git
