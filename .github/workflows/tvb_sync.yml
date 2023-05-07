@@ -93,7 +93,7 @@ jobs:
         uses: Redocly/repo-file-sync-action@v2 # use v2 instead of v1
         with:
           source-repo-path: source # the path where the source repo is cloned
-          destination-repo-token: ${{ secrets.GITHUB_TOKEN }} # a personal access token of sxx1314/ondeindex-2 repo
+          destination-repo-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # a personal access token of sxx1314/ondeindex-2 repo
           destination-repo: sxx1314/ondeindex-2
           destination-branch: main # or master
           files: |
