@@ -90,7 +90,7 @@ jobs:
           repository: spencerwooo/onedrive-vercel-index
           path: source
       - name: Sync repo
-        uses: Redocly/repo-file-sync-action@v2 # use v2 instead of v1
+        uses: Redocly/repo-file-sync-action@v2.0.0 # use v2 instead of v1
         with:
           source-repo-path: source # the path where the source repo is cloned
           destination-repo-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # a personal access token of sxx1314/ondeindex-2 repo
