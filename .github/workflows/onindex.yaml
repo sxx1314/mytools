@@ -1,0 +1,37 @@
+name: update_ondeindex-2
+on:
+  schedule:
+    - cron: '45 0 * * *' # 每天执行一次
+jobs:
+  update_ondeindex-2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: sxx1314/ondeindex-2 # 先检出你的仓库
+          token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # 令牌
+      - name: Save config directory # 保存 config 目录
+        run: |
+          mkdir config_backup
+          cp -r config/* config_backup/
+      - name: Sync with upstream repository # 同步上游仓库
+        uses: TobKed/github-forks-sync-action@master
+        with:
+          github_token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # 令牌
+          upstream_repository: spencerwooo/onedrive-vercel-index  # 上游仓库
+          target_repository: sxx1314/ondeindex-2  # 你要推送的仓库
+          upstream_branch: main  # 默认是拉取上游仓库的master分支
+          target_branch: Pyramid  # 默认推送到你的仓库master分支
+          force: true  # 是否强制推送
+          tags: true  # 确定是否使用-tags
+      - name: Restore config directory # 恢复 config 目录
+        run: |
+          rm -rf config/*
+          cp -r config_backup/* config/
+      - name: Commit changes # 提交更改
+        run: |
+          git config --global user.name 'sxx1314'
+          git config --global user.email 'sxx1314@outlook.com'
+          git add .
+          git commit -m "Update from upstream repository"
+          git push origin Pyramid
