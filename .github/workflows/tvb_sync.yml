@@ -81,22 +81,3 @@ jobs:
           target_branch: Pyramid  # 默认推送到你的仓库master分支
           force: true  # 是否强制推送
           tags: true  # 确定是否使用-tags
-  update_ondeindex:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout source repo
-        uses: actions/checkout@v2
-        with:
-          repository: spencerwooo/onedrive-vercel-index
-          path: source
-      - name: Sync repo
-        uses: Redocly/repo-file-sync-action@main # use v2 instead of v1
-        with:
-          source-repo-path: source # the path where the source repo is cloned
-          destination-repo-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # a personal access token of sxx1314/ondeindex-2 repo
-          destination-repo: sxx1314/ondeindex-2
-          destination-branch: main # or master
-          files: |
-            ./* # sync all files in the root directory
-            exclude:
-              config/* # exclude the config directory
