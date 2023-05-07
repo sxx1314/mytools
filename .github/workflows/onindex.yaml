@@ -21,8 +21,8 @@ jobs:
           github_token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # 令牌
           upstream_repository: spencerwooo/onedrive-vercel-index  # 上游仓库
           target_repository: sxx1314/ondeindex-2  # 你要推送的仓库
-          upstream_branch: main  # 默认是拉取上游仓库的master分支
-          target_branch: main  # 默认推送到你的仓库master分支
+          upstream_branch: main  # 默认是拉取上游仓库的main分支
+          target_branch: main  # 默认推送到你的仓库main分支
           force: true  # 是否强制推送
           tags: true  # 确定是否使用-tags
       - name: Restore config directory # 恢复 config 目录
@@ -35,4 +35,4 @@ jobs:
           git config --global user.email 'sxx1314@outlook.com'
           git add .
           git commit -m "Update from upstream repository"
-          git push origin main
+          git push origin main --force-with-lease # 使用 --force-with-lease 参数来避免覆盖其他人的更改
